@@ -1,0 +1,8 @@
+---
+title: "README"
+author: "Rafael Cruz Gil"
+date: "24 May 2018"
+output: html_document
+---
+
+Network visualisation. All packages are indicated in the code.

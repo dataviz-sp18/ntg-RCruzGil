@@ -1,0 +1,47 @@
+---
+title: "Network Vis"
+author: "Rafael Cruz Gil"
+date: "26 May 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+library(tidyverse)
+library(igraph)
+library(visNetwork)
+
+```
+
+## Network Visualisation
+
+This visualisation presents the coin finds in 5 archaeological sites in Northen Israel. Yellow nodes represent mints where coins were made, gray nodes represent some of the 5 sites where the coins were found, but none were minted, and red nodes represent sites that both are a location of finds and had a mint. Hovering over each node will tell the name of the city.
+
+```{r, map}
+
+library(visNetwork)
+
+nodes <- read_csv("nodes.csv")
+
+links <- read_csv("edges.csv")
+
+nodes$shape <- "dot"  
+nodes$shadow <- TRUE 
+nodes$title <- nodes$city 
+nodes$label <- nodes$type.label 
+nodes$size <- 25
+nodes$borderWidth <- 2 
+nodes$color.background <- c("slategrey", "gold", "tomato")[nodes$type]
+nodes$color.highlight.background <- "orange"
+nodes$color.highlight.border <- "darkred"
+nodes$color.border <- "black"
+
+
+
+
+visNetwork(nodes, links)  %>%
+  visOptions(selectedBy = "label", 
+             highlightNearest = TRUE) %>%
+  visPhysics(stabilization = FALSE)
+
+```

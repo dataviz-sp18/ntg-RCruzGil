@@ -1,0 +1,36 @@
+﻿id,city,n,type,type.label
+s01,Alexandria,2,2,Mint
+s02,Amphipolis,4,2,Mint
+s03,Antioch,45,2,Mint
+s04,Apamea,1,2,Mint
+s05,Aradus,2,2,Mint
+s06,Ashkelon,4,2,Mint
+s07,Berytus,3,2,Mint
+s08,Bostra,3,2,Mint
+s09,Byblos,1,2,Mint
+s10,Caesarea Maritima,29,2,Mint
+s11,Chalcis,1,2,Mint
+s12,Damascus,27,2,Mint
+s13,Dora,2,2,Mint
+s14,Edessa,1,2,Mint
+s15,Ephesus,1,2,Mint
+s16,Gaba,3,2,Mint
+s17,Gadara,16,2,Mint
+s18,Gamla,7,3,Both
+s19,Herakleia,1,2,Mint
+s20,Hippos,15,3,Both
+s21,Jerusalem,4294,2,Mint
+s22,Marathus,1,2,Mint
+s23,Paneas,19,2,Mint
+s24,Petra,4,2,Mint
+s25,Ptolemais,56,2,Mint
+s26,Rome,8,2,Mint
+s27,Samaria,2,2,Mint
+s28,Scythopolis,5,2,Mint
+s29,Seleucia Pieria,2,2,Mint
+s30,Sepphoris,7,2,Mint
+s31,Sidon,141,2,Mint
+s32,Tiberias,100,3,Both
+s33,Tyre,1358,2,Mint
+s34,Magdala,0,1,Site
+s35,Capernaum,0,1,Site
