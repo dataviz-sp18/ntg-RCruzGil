@@ -6,3 +6,5 @@ output: html_document
 ---
 
 Network visualisation. All packages are indicated in the code.
+
+Link to page is here: https://rcruzgil.shinyapps.io/networkvis/

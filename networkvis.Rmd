@@ -5,6 +5,8 @@ date: "26 May 2018"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
+    
+runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
@@ -12,6 +14,7 @@ output:
 library(tidyverse)
 library(igraph)
 library(visNetwork)
+library(shiny)
 
 ```
 
